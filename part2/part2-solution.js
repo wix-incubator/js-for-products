@@ -18,7 +18,14 @@
 function multipleOrAdd(x, y) {
     let result
 
-    // TODO - write your code here
+    const isXEven = x % 2 === 0
+    const isYEven = y % 2 === 0
+
+    if (isXEven && isYEven) {
+        result = x * y
+    } else {
+        result = x + y
+    }
 
     return result
 }
