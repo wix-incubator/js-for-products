@@ -9,3 +9,5 @@ It prints the text to the console, as many times as requested
 Write a function called findRandom    
 The function finds a random number less than 0.5   
 Hint - Math.random is a function that returns a random number between 0 and 1   
+
+**Challenge**: print to the console the number of attempts it took to find the number
