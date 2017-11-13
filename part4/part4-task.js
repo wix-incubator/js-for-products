@@ -4,6 +4,6 @@ function bartThis(times, text) {
 
 }
 
-function findRandom() {
+const findRandom = () => {
     // TODO find a random number < 0.5 and return it
 }
