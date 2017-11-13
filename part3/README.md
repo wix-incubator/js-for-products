@@ -1,6 +1,7 @@
 # Functions
 
-1. Write a function called 'bartThis'   
+**Select one of these tasks:**      
+1. Write a function called 'bartThis'  
 The function gets a string, and prints it 3 times to the screen  
 Use console.log to print
 
