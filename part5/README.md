@@ -4,6 +4,8 @@ Write a function called findNumber that gets an array
 If the array contains a number greater than 50, it returns the number    
 If it doesn't, the function returns -1    
 
+**Hint** : for loops are very useful for scanning arrays
+
 **Examples:**   
 
 findNumber([1, 12, 13, 52, 78, 4]) -> returns 52    
