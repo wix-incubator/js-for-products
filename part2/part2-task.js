@@ -1,9 +1,11 @@
-// copy paste this to the snippets area in the dev tools
-/* implement
+/*
+ * copy paste this to the snippets area in the dev tools
+ *
  * if both numbers are even: set the product of x and y to result variable
  * else, set the sum of x and y to result variable
  *
- * Hint - use % 2 to check if a number is even
+ * Hint - a number is even if it devides by 2 with no remainder
+ * x % 2 === 0   <=> x is even
  *
  * examples:
  *
