@@ -5,7 +5,7 @@ function bartThis(text) {
     console.log(text)
 }
 
-// TODO implement max - find the greater number our ot 2 numbers
+// TODO implement max - find the greater number out ot 2 numbers
 function max(x, y) {
     if (x >= y) {
         return x
