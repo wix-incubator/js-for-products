@@ -1,14 +1,13 @@
-# JS intro for product managers
+# Arrays
 
-All tasks should be done in Chrome developer tools.  
-To open developer tools:
+Write a function called findNumber that gets an array    
+If the array contains a number greater than 50, it returns the number    
+If it doesn't, the function returns -1    
 
- - mac:  cmd+option+i
- - windows: F12
-
-[Link to slides](https://docs.google.com/a/wix.com/presentation/d/1Qr-7SLZQvQn5kXuXOZ--iY1m3XJABFHymLYOn67S4pw/edit?usp=sharing)
-
-**To start:**   
-Go to example.com   
-Open part1 directory
-
+**Examples:**   
+`
+findNumber([1, 12, 13, 52, 78, 4]) -> returns 52   
+findNumber([1, 12, 13, 49, 4, 63]) -> returns 63v   
+findNumber([1, 12, 13, 25, 4, 33]) -> returns -1   
+findNumber([]) -> returns -1   
+`
