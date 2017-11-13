@@ -1,14 +1,8 @@
-# JS intro for product managers
+# Functions
 
-All tasks should be done in Chrome developer tools.  
-To open developer tools:
+1. Write a function called 'bartThis'   
+The function gets a string, and prints it 3 times to the screen  
+Use console.log to print
 
- - mac:  cmd+option+i
- - windows: F12
-
-[Link to slides](https://docs.google.com/a/wix.com/presentation/d/1Qr-7SLZQvQn5kXuXOZ--iY1m3XJABFHymLYOn67S4pw/edit?usp=sharing)
-
-**To start:**   
-Go to example.com   
-Open part1 directory
-
+2. Write a function called 'max'     
+	The function gets 2 numbers, and returns the greater one
