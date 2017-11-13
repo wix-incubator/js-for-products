@@ -12,7 +12,7 @@
  * multipleOrAdd(2, 4) -> 8
  * multipleOrAdd(6, 4) -> 24
  * multipleOrAdd(6, 3) -> 9
- * multipleOrAdd(6, 3) -> 9
+ * multipleOrAdd(3, 6) -> 9
  * multipleOrAdd(1, 10) -> 11
  *
  */
