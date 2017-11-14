@@ -1,67 +1,19 @@
-const rotateRightImage = 'https://d30y9cdsu7xlg0.cloudfront.net/png/8336-200.png'
-const rotateLeftImage = 'https://d30y9cdsu7xlg0.cloudfront.net/png/8337-200.png'
-
-const createRotateButton = (position, elementId, backgroundUrl) => {
-    const rotateButton = document.createElement('div')
-    rotateButton.style.width = '50px'
-    rotateButton.style.height = '50px'
-    rotateButton.style.border = '1px solid black'
-    rotateButton.style.position = 'fixed'
-    rotateButton.style.left = position.x
-    rotateButton.style.top = position.y
-    rotateButton.setAttribute('id', elementId)
-    rotateButton.style.backgroundSize = 'contain'
-    rotateButton.style.backgroundImage = `url('${backgroundUrl}')`
-    rotateButton.style.cursor = 'pointer'
-    return rotateButton
+/**
+ *  This task should be done on example.com website
+ *
+ */
+const COLORS = ['gold', 'bisque', 'crimson', '#00ffff', 'violet', 'powderblue', 'deeppink']
+const getRandomColor = () => {
+    const colorIndex = Math.floor(Math.random() * COLORS.length)
+    return COLORS[colorIndex]
 }
 
-const createAndAddRotateButtons = () => {
-    const right = createRotateButton({x: '120px', y: '50px'}, 'rotateRight', rotateRightImage)
-    const left = createRotateButton({x: '50px', y: '50px'}, 'rotateLeft', rotateLeftImage)
-    document.body.appendChild(right)
-    document.body.appendChild(left)
+const changeColor = (domElement) => {
+    const newColor = getRandomColor()
+    domElement.style.color = newColor
 }
 
-const getCurrentAngle = elm => {
-    const transform = elm.style.transform
-    if (!transform) {
-        return 0
-    }
-
-    const angle = transform.substring(transform.indexOf('(') + 1, transform.indexOf('deg'))
-    return parseInt(angle)
-
-}
-
-const rotateBy = (element, degrees) => {
-    let currentAngle = getCurrentAngle(element)
-    if (currentAngle !== 0 && !currentAngle) {
-       currentAngle = 0
-    }
-    element.style.transform = `rotate(${currentAngle + degrees}deg)`
-}
-
-
-function activateRotationGame() {
-    createAndAddRotateButtons()
-    let speed = 50
-    let angleChange = 0
-
-    const logo = document.getElementById('hplogo')
-
-    const rotateRightButton = document.getElementById('rotateRight')
-    const rotateLeftButton = document.getElementById('rotateLeft')
-
-    rotateLeftButton.onclick = () => {
-        angleChange -= 10
-    }
-
-    rotateRightButton.onclick = () => {
-        angleChange += 10
-    }
-
-    window.setInterval(() => {
-        rotateBy(logo, angleChange)
-    }, speed)
+const title = document.getElementsByTagName('h1')[0]
+title.onclick = function() {
+    changeColor(title)
 }
