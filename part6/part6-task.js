@@ -1,16 +1,5 @@
-const myArr = [{
-    firstName: 'Freak',
-    lastName: 'Azoid'
-}]
+const myCompnay = {}
 
-function addUser(arr, firstName, lastName) {
-    // TODO create a user object.
-    // TODO return a new array with the new user in it
-}
+const user = {}
 
-const newArr = addUser(myArr, 'Cersei', 'Lannister')
-console.log('Number of users: ', newArr.length)             // should be 2
-console.log('New user name:', newArr[1].firstName)          //should be Cersei
-console.log('Did change the original? ', newArr === arr)    //should be false
-
-// TODO try to add another user
+// TODO create an object describing the company manager, and set it as the value of the manager property in the company object
