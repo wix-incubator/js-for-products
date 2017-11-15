@@ -14,5 +14,5 @@ const changeColor = (domElement) => {
 }
 
 // title =
-// title.onclick ...
+// title.onclick = function...
 
