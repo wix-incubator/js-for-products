@@ -18,8 +18,8 @@ function multipleOrAdd(x, y) {
 This code runs a function (we will learn about those later).   
 The function code takes 2 numbers as variables x and y     
 You should implement a condition inside the function:  
-if both numbers are even: set the product of x and y to **result** variable
-else, set the sum of x and y to result variable          
+**if** both numbers are even: set the product of x and y to **result** variable.          
+**else**, set the sum of x and y to result variable          
      
      
 **Hint** - a number is even if it devides by 2 with no remainder     
