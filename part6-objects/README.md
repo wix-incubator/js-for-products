@@ -1,6 +1,6 @@
 # Objects       
 
-Create an object for you company at Wix       
+Create an object for your company at Wix       
 The object should have these properties:       
 - name
 - manager
