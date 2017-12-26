@@ -3,10 +3,10 @@ function runMe() {
     setTimeout(() => resolve('D1234'), 1000)
   })
 
-  const getUserData = userName => new Promise((resolve, reject) => {
-    console.log(`getUserData called with ${userName}`)
+  const getUserData = userId => new Promise((resolve, reject) => {
+    console.log(`getUserData called with ${userId}`)
     setTimeout(() => {
-      if (userName !== 'D1234') {
+      if (userId !== 'D1234') {
         reject('incorrect user name')
       } else {
         resolve({
@@ -19,8 +19,8 @@ function runMe() {
     }, 1000)
   })
 
-  // getCurrentUserName and getUserData are async functions that return a promise.
-  // TODO Call getCurrentUserName and pass the result to getUserData. It will return the user data object, than print the user name from the data object
+  // getCurrentUserId and getUserData are async functions that return a promise.
+  // TODO Call getCurrentUserId and pass the result to getUserData. It will return the user data object, than print the user name from the data object
 }
 
 
