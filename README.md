@@ -6,7 +6,7 @@ To open developer tools:
  - mac:  cmd+option+i
  - windows: F12
 
-[Link to slides](https://docs.google.com/a/wix.com/presentation/d/1Qr-7SLZQvQn5kXuXOZ--iY1m3XJABFHymLYOn67S4pw/edit?usp=sharing)
+[Link to slides](https://docs.google.com/a/wix.com/presentation/d/1y5msm3EJPhLRkgE2KAraXw_y8c_3_q6TXhYLcSMVEb0/edit?usp=sharing)
 
 **To start:**   
 Go to example.com   
